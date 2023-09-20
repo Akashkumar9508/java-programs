@@ -6,7 +6,11 @@ public static void main(String[] args) {
     System.out.println("hello what you want");
     System.out.println("press W/w for week and M/m for month");
     char userinput=sc.next().charAt(0);
-    
+    switch()
+
+  
+
+
 
 }
 }
