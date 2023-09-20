@@ -50,6 +50,7 @@ public class minicalculator {
         System.out.println("Invalid operator!");
         break;
     }
+    input.close();
     
   }
   void disp() {
@@ -58,5 +59,6 @@ public class minicalculator {
     System.out.println("Enter your name:");
     String name = input.next();
     System.out.println("Hello, " + name + "!");
+    input.close();
   }
 }
