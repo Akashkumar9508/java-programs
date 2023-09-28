@@ -15,10 +15,12 @@ public class weekdayandmonth {
         if (userinput == '1') {
             week();
 
-        } else if (userinput == '2') {
+        } 
+        else if (userinput == '2') {
             month();
 
-        } else {
+        }
+         else {
             nothing();
         }
         sc.close();
