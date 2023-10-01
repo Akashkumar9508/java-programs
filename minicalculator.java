@@ -6,7 +6,6 @@ public class minicalculator {
    
     // You can call the disp() method here if needed.
     minicalculator calculator = new minicalculator();
-    calculator.disp();
     calculator.sum();
   }
 
@@ -52,13 +51,5 @@ public class minicalculator {
     }
     input.close();
     
-  }
-  void disp() {
-    Scanner input = new Scanner(System.in);
-
-    System.out.println("Enter your name:");
-    String name = input.next();
-    System.out.println("Hello, " + name + "!");
-    input.close();
   }
 }
