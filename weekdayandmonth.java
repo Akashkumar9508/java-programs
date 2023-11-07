@@ -11,6 +11,7 @@ public class weekdayandmonth {
         System.out.println("Welcome to the week and month.......... ");
         System.out.println("hello what you want......");
         System.out.println("press 1 for week and 2 for month.........");
+        
         char userinput = sc.next().charAt(0);
         if (userinput == '1') {
             week();
